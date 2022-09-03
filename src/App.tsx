@@ -19,8 +19,6 @@ function App() {
   const breedState = dogStore?.breed;
   const imageResultState = dogStore?.imageResults;
 
-  console.log(images, "images");
-
   const fetchData = useCallback(async () => {
     await fetchDogsData()
       .then((data) => {
@@ -65,6 +63,16 @@ function App() {
           Created by{" "}
           <a href="https://imrancodes.com/" target="_blank" rel="noreferrer">
             Imran Codes{" "}
+          </a>
+        </p>
+        <p>
+          Youtube Video Build.{" "}
+          <a
+            href="https://www.youtube.com/watch?v=-nMQ4y74jHQ"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Watch Now{" "}
           </a>
         </p>
       </Description>

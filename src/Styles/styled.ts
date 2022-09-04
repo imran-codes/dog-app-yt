@@ -19,6 +19,11 @@ export const Description = styled.div`
   li {
     list-style: none;
   }
+
+  img {
+    width: 200px;
+    padding-top: 10px;
+  }
 `;
 
 export const AppBody = styled.div`
